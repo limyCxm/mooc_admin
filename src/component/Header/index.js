@@ -6,10 +6,9 @@ export default class Header extends Component {
     return (
       <div className="headerContent">
         <Row className="header_tips">
-          <Col span={20} />
-          <Col span={4}>
-            <Badge count={5}>Message</Badge>
+          <Col span={24}>
             <img src="/assets/Iron-Man.svg" alt="" />
+            <Badge count={5}>Message</Badge>
           </Col>
         </Row>
       </div>
