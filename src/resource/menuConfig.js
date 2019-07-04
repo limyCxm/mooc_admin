@@ -8,8 +8,8 @@ const menuList = [
     key: '/ui',
     children: [
       {
-        title: '按钮',
-        key: '/ui/buttons',
+        title: '分页',
+        key: '/ui/pagination',
       },
       {
         title: '弹框',

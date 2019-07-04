@@ -6,6 +6,7 @@ import App from './App';
 import Admin from './admin';
 
 import Home from './pages/home';
+import Pagination from './pages/ui/pagination';
 
 export default class IronRouter extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class IronRouter extends React.Component {
                 <Admin>
                   <Switch>
                     <Route path="/home" component={Home} />
+                    <Route path="/ui/pagination" component={Pagination} />
                     <Redirect to="/home" />
                   </Switch>
                 </Admin>

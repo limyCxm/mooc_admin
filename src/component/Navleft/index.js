@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import { NavLink } from 'react-router-dom';
 import { Menu, Icon } from 'antd';
 import './index.less';
 
@@ -13,9 +15,7 @@ export default class Navleft extends Component {
     };
   }
 
-  handleClick = e => {
-    console.log('e=>>>>>>>>', e);
-  };
+  handleClick = e => {};
   componentWillMount() {
     let renderNode = this.renderMenu(menu);
     this.setState({
